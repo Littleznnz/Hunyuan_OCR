@@ -10,9 +10,10 @@ Hunyuan_OCR项目https://github.com/Tencent-Hunyuan/HunyuanOCR 的ComfyUI复现
 - 💾 磁盘空间：6GB
 
 ## Installation
+```bash
 pip install git+https://github.com/huggingface/transformers@82a06db03535c49aa987719ed0746a76093b1ec4
 pip install -r requirements.txt
-
+```
 
 ## 💬 推荐的OCR任务提示词
 | 任务 | 中文提示词 | 英文提示词 |
