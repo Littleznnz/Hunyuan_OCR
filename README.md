@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 
 ## 🙏 致谢
-我们衷心感谢[HunYuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR)、[ComfyUI](https://github.com/comfyanonymous/ComfyUI)、[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)、[MinerU](https://github.com/opendatalab/MinerU)、[MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR)、[DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)、[dots.ocr](https://github.com/rednote-hilab/dots.ocr) 的作者和贡献者，感谢他们杰出的开源工作和宝贵的研究思路。
+我们衷心感谢[HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR)、[ComfyUI](https://github.com/comfyanonymous/ComfyUI)、[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)、[MinerU](https://github.com/opendatalab/MinerU)、[MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR)、[DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)、[dots.ocr](https://github.com/rednote-hilab/dots.ocr) 的作者和贡献者，感谢他们杰出的开源工作和宝贵的研究思路。
 
 同时我们也感谢以下宝贵的开源数据集：[OminiDocBench](https://github.com/opendatalab/OmniDocBench)、[OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench)、[DoTA](https://github.com/liangyupu/DIMTDA)。
 
