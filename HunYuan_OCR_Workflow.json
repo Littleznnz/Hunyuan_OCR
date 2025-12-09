@@ -1,0 +1,491 @@
+{
+  "id": "4aadbe3c-7222-4aae-8c8d-9600709feb64",
+  "revision": 0,
+  "last_node_id": 18,
+  "last_link_id": 16,
+  "nodes": [
+    {
+      "id": 13,
+      "type": "easy string",
+      "pos": [
+        2433.164138450822,
+        326.32282597688754
+      ],
+      "size": [
+        309.66942148760336,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "b7881d84b1317b4fe4458ef4ad37898a200c5319",
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "OCR_Text"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "StringConcatenate",
+      "pos": [
+        2756.9998694338437,
+        210.54485899226898
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 10
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            12
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.76",
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "/"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ws保存文件",
+      "pos": [
+        3169.908235114253,
+        0.7316320899055424
+      ],
+      "size": [
+        210,
+        136
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "localPath",
+          "type": "STRING",
+          "widget": {
+            "name": "localPath"
+          },
+          "link": 9
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "ws保存文件"
+      },
+      "widgets_values": [
+        255,
+        "",
+        true
+      ]
+    },
+    {
+      "id": 11,
+      "type": "easy string",
+      "pos": [
+        2404.350250118649,
+        198.06042956842413
+      ],
+      "size": [
+        309.66942148760336,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "b7881d84b1317b4fe4458ef4ad37898a200c5319",
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "/opt/data/ComfyUI_Online/input/temp"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        3202.1728911691075,
+        212.40186549841806
+      ],
+      "size": [
+        243.999911221591,
+        76
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "/opt/data/ComfyUI_Online/input/temp/OCR_Text"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CR Save Text To File",
+      "pos": [
+        2820.25946701403,
+        483.3212285609891
+      ],
+      "size": [
+        389.76314014744867,
+        160
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
+        "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
+        "Node name for S&R": "CR Save Text To File"
+      },
+      "widgets_values": [
+        "",
+        "/opt/data/ComfyUI_Online/input/temp/",
+        "OCR_Text",
+        "txt"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "easy string",
+      "pos": [
+        2865.5049949368354,
+        22.498719146642543
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "b7881d84b1317b4fe4458ef4ad37898a200c5319",
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "/opt/data/ComfyUI_Online/input/temp/OCR_Text.txt"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "HunyuanOCR_Node",
+      "pos": [
+        777.7665309548524,
+        -103.7780751904852
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            15
+          ]
+        },
+        {
+          "name": "json_output",
+          "type": "STRING",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "HunyuanOCR_Node"
+      },
+      "widgets_values": [
+        "tencent/HunyuanOCR",
+        "检测并识别图片中的文字，将文本坐标格式化输出。",
+        16384,
+        "cuda"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "easy showAnything",
+      "pos": [
+        1221.8536514266384,
+        -35.990952977188954
+      ],
+      "size": [
+        285.5999755859375,
+        353.9999694824219
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 16
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "b7881d84b1317b4fe4458ef4ad37898a200c5319",
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "{\n    \"0\": {\n        \"text\": \"轻链\",\n        \"bbox\": [\n            544,\n            377,\n            921,\n            604\n        ]\n    },\n    \"1\": {\n        \"text\": \"LIGHTCHAIN\",\n        \"bbox\": [\n            544,\n            619,\n            922,\n            662\n        ]\n    }\n}"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "MaskPreview+",
+      "pos": [
+        1577.0538467391384,
+        -107.99104452992333
+      ],
+      "size": [
+        150.1431640625,
+        246
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 15
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 16,
+      "type": "LoadImage",
+      "pos": [
+        467.76811747278094,
+        -100.8330453493204
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.76",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "lightchain_TB.jpg",
+        "image"
+      ]
+    }
+  ],
+  "links": [
+    [
+      9,
+      10,
+      0,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      10,
+      11,
+      0,
+      12,
+      0,
+      "STRING"
+    ],
+    [
+      11,
+      13,
+      0,
+      12,
+      1,
+      "STRING"
+    ],
+    [
+      12,
+      12,
+      0,
+      14,
+      0,
+      "STRING"
+    ],
+    [
+      14,
+      16,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ],
+    [
+      15,
+      1,
+      0,
+      17,
+      0,
+      "MASK"
+    ],
+    [
+      16,
+      1,
+      1,
+      18,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        -225.8537734969509,
+        278.1910109605874
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "ue_links": [],
+    "frontendVersion": "1.32.10",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
